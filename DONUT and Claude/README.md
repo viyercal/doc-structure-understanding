@@ -26,4 +26,10 @@ Measures the accuracy of correctly assigning tags to document elements by calcul
 ### Text Extraction Accuracy by Tag:
 Calculates the text extraction accuracy for each specific tag using the Levenshtein distance to compare the extracted text for a given tag with the corresponding ground truth text.
 
+### Overall Tag Categorization F1 Score:
+Measures the accuracy of correctly assigning tags to document elements by calculating the F1 score.
+
+### Tag-Specific F1 Scores:
+Measures the accuracy of correctly assigning tags to each specific document elements by calculating the F1 score.
+
 #### Extra text elements not present in the reference are penalized (hallucinations)
